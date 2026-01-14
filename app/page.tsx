@@ -5,7 +5,7 @@ import { MultiAgentCrew } from "@/components/multi-agent-crew"
 import { DemoVideo } from "@/components/demo-video"
 import { UseCases } from "@/components/use-cases"
 import { Testimonials } from "@/components/testimonials"
-import { PrivacySecurity } from "@/components/privacy-security"
+import { ScheduleDemo } from "@/components/schedule-demo"
 import { FAQ } from "@/components/faq"
 import { CTA } from "@/components/cta"
 import { Footer } from "@/components/footer"
@@ -31,8 +31,9 @@ export default function Home() {
       <DemoVideo />
       <UseCases />
       <Testimonials />
-      <div id="security">
-        <PrivacySecurity />
+      <div id="Demo">
+        <ScheduleDemo />
+
       </div>
       <FAQ />
       <div id="waitlist">
